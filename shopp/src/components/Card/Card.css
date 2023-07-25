@@ -1,0 +1,65 @@
+.container-card{
+    width: 22rem;
+    border: 1px solid lightgray;
+}
+
+.card-img{
+    height: 11rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+img{
+    width:190px;
+}
+
+.card-body{
+    padding: 2rem 1rem;
+}
+
+.wraper-sendIcon{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding-right: 1rem;
+}
+
+.wraper-sendIcon h3{
+    color: #8d8b8b;
+}
+
+.desc{
+    height: 5rem;
+    overflow: hidden;
+}
+
+.wraper-count-rate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wraper-rate{
+    display: flex;
+    align-items: center;
+}
+
+.wraper-btn-price{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 1rem;
+}
+
+.add-btn{
+    background-color: #28a745;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    padding: .5rem 1rem;
+    filter: brightness(1);
+  
+  &:hover{
+      cursor: pointer;
+      filter: brightness(.9);
+  }
+}

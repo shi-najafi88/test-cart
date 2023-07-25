@@ -1,0 +1,16 @@
+nav{
+    padding: 1rem 6rem 2rem 1rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600; 
+}
+
+.link{
+    text-decoration: none;
+    color: #919090;
+
+    &:hover{
+        color: #4287f5;          
+    }
+}
